@@ -5,8 +5,9 @@
     Trainer: Sravan
     Duration: 100 hrs
   tasks: 
-  - name: print output
+  - name: print Information
+    vars:
       Course: DevOps
     ansible.builtin.debug:
-    msg: "Hi, I am learning {{ Course }} from {{ Trainer }} with duration of {{ Duration }}"
+      msg: "Hi, I am learning {{ Course }} from {{ Trainer }} with duration of {{ Duration }}"
 
