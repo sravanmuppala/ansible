@@ -4,4 +4,4 @@
   - vars.yaml
   tasks:
     ansibile.builtin.debug:
-      msg: " Hi, I am learning {{ Course }} from trainer {{ Trainer }} with duration of {{ Duration }}"
+      msg: " Hi, I am learning {{ Course }} from trainer {{ Trainer }} with duration of {{ Duration }} "
