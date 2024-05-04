@@ -2,7 +2,9 @@
   hosts:  localhost
   vars: 
     WISHES: Good Morning from PLAY Level
- vars_prompt:
+  vars_files:
+  - vars.yaml
+  vars_prompt:
   - name: WISHES
     prompt: Please enter your wishes
     private: no
