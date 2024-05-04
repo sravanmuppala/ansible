@@ -1,6 +1,6 @@
 - name: Variables 
-  hosts: web
+  hosts: localhost
   tasks:
   - name: print information
     ansible.builtin.debug:
-     msg: "Hi, I am learning course {{ Course }} from trainer {{ Trainer }} with duration of {{ Duration }}"
+      msg: "Hi, I am learning course {{ Course }} from trainer {{ Trainer }} with duration of {{ Duration }}"
