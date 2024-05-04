@@ -1,10 +1,9 @@
 - name: variables
-  hosts:  web
+  hosts: web
   vars:
     Course: Terraform
     Trainer: Sravan
     Duration: 100 hrs
-  
   taks: 
   - name: print output
       Course: DevOps
