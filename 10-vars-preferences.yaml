@@ -1,6 +1,6 @@
 - name: variable preferences
   hosts:  localhost
-  vars: WISHES
+  vars: 
     WISHES: Good Morning from PLAY Level
  vars_prompt:
   - name: WISHES
