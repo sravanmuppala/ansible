@@ -3,5 +3,5 @@
   vars_files:
   - vars.yaml
   tasks:
-    ansiblie.builtin.debug:
-      msg: " Hi, I am learning {{ Course }} from rainer {{ Trainer }} with duration of {{ Duration }}"
+    ansibile.builtin.debug:
+      msg: " Hi, I am learning {{ Course }} from trainer {{ Trainer }} with duration of {{ Duration }}"
