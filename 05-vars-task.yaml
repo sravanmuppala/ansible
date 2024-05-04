@@ -4,7 +4,7 @@
     Course: Terraform
     Trainer: Sravan
     Duration: 100 hrs
-  taks: 
+  tasks: 
   - name: print output
       Course: DevOps
     ansible.builtin.debug:
